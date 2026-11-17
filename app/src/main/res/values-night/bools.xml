@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- En el tema oscuro los iconos de la barra de estado van claros -->
+    <bool name="libri_light_bars">false</bool>
+</resources>

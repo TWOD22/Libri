@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Columnas de la lista de la Biblioteca: 1 en celular vertical -->
+    <integer name="library_columns">1</integer>
+</resources>

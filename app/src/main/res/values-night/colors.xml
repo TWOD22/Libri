@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tema OSCURO de Libri: fondo morado oscuro, letras y detalles en crema -->
+<resources>
+    <color name="libri_background">#1E1230</color>
+    <color name="libri_surface">#2B1B45</color>
+    <color name="libri_surface_variant">#3A2860</color>
+    <color name="libri_primary">#7B4DB8</color>
+    <color name="libri_on_primary">#F3E9D2</color>
+    <color name="libri_text_primary">#F3E9D2</color>
+    <color name="libri_text_secondary">#B9AACB</color>
+    <color name="libri_stroke">#4A3570</color>
+    <color name="libri_gold">#E0B050</color>
+    <color name="libri_mint">#6CC5A5</color>
+    <color name="libri_scrim">#80000000</color>
+</resources>

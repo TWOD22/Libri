@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alias: en celular vertical el detalle usa la versión de una columna -->
+    <item name="activity_book_detail" type="layout">@layout/activity_book_detail_phone</item>
+</resources>

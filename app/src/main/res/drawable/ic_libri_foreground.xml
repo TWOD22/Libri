@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Primer plano del ícono: libro abierto color crema con un marcador dorado -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Página izquierda -->
+    <path
+        android:fillColor="#F3E9D2"
+        android:pathData="M54,40 C46,34 36,33 28,35 L28,71 C36,69 46,70 54,76 Z" />
+    <!-- Página derecha -->
+    <path
+        android:fillColor="#E6D8B8"
+        android:pathData="M54,40 C62,34 72,33 80,35 L80,71 C72,69 62,70 54,76 Z" />
+    <!-- Marcador dorado -->
+    <path
+        android:fillColor="#E0B050"
+        android:pathData="M62,35 L70,34 L70,52 L66,48.5 L62,52 Z" />
+</vector>

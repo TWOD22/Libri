@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tablet: el detalle usa dos columnas -->
+    <item name="activity_book_detail" type="layout">@layout/activity_book_detail_wide</item>
+</resources>

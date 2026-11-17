@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Portada por defecto cuando el libro no tiene imagen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/libri_surface_variant" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item
+        android:width="32dp"
+        android:height="32dp"
+        android:drawable="@drawable/ic_book_placeholder"
+        android:gravity="center" />
+</layer-list>

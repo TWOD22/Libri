@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Libri</string>
+
+    <!-- Navegación -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_library">Biblioteca</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Acciones generales -->
+    <string name="action_add_book">Agregar libro</string>
+    <string name="action_add_progress">Sumar avance</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_search">Buscar</string>
+    <string name="author_unknown">Autor desconocido</string>
+
+    <!-- Descripciones para accesibilidad -->
+    <string name="cd_back">Volver</string>
+    <string name="cd_cover">Portada del libro</string>
+    <string name="cd_next_month">Mes siguiente</string>
+    <string name="cd_prev_month">Mes anterior</string>
+    <string name="cd_star">%1$d estrellas</string>
+    <string name="cd_streak">Racha de lectura</string>
+
+    <!-- Días de la semana (calendario) -->
+    <string name="day_mon">L</string>
+    <string name="day_tue">M</string>
+    <string name="day_wed">X</string>
+    <string name="day_thu">J</string>
+    <string name="day_fri">V</string>
+    <string name="day_sat">S</string>
+    <string name="day_sun">D</string>
+    <!-- Letra de cada día, empezando por domingo (para los puntos de la semana) -->
+    <string-array name="week_letters">
+        <item>D</item>
+        <item>L</item>
+        <item>M</item>
+        <item>X</item>
+        <item>J</item>
+        <item>V</item>
+        <item>S</item>
+    </string-array>
+
+    <!-- Login -->
+    <string name="login_tagline">Tu biblioteca y tu hábito de lectura, en un solo lugar</string>
+    <string name="login_user">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="login_error_empty">Escribe tu usuario y tu contraseña.</string>
+    <string name="login_error_wrong">Usuario o contraseña incorrectos.</string>
+    <string name="login_hint">Usuarios de prueba: prueba / 1234 y prueba2 / 1234</string>
+
+    <!-- Inicio -->
+    <string name="home_greeting">Hola, %1$s</string>
+    <string name="home_subtitle">¿Listo para leer un rato hoy?</string>
+    <string name="home_reading_now">Leyendo ahora</string>
+    <string name="home_empty">No tienes libros en lectura. Empieza uno desde la Biblioteca.</string>
+    <plurals name="streak_days">
+        <item quantity="one">%1$d día de racha</item>
+        <item quantity="other">%1$d días de racha</item>
+    </plurals>
+    <string name="goal_done">¡Meta diaria cumplida! Ya leíste hoy.</string>
+    <string name="goal_pending">Meta diaria: registra tu avance de hoy para mantener la racha.</string>
+
+    <!-- Biblioteca -->
+    <string name="library_title">Biblioteca</string>
+    <string name="library_search_hint">Buscar por título o autor</string>
+    <string name="library_empty">No hay libros para mostrar. Usa el botón + para agregar uno.</string>
+    <string name="filter_all">Todos</string>
+    <string name="status_want">Quiero leer</string>
+    <string name="status_reading">Leyendo</string>
+    <string name="status_done">Terminado</string>
+    <string name="rating_short">★ %1$d</string>
+
+    <!-- Avance -->
+    <string name="progress_pages_fmt">%1$d / %2$d págs · %3$d%%</string>
+    <string name="progress_percent_fmt">%1$d%%</string>
+    <string name="progress_hint_pages">Vas en la página %1$d de %2$d. ¿En qué página quedaste?</string>
+    <string name="progress_hint_percent">Vas en el %1$d%%. ¿Qué porcentaje llevas ahora?</string>
+    <string name="progress_field_pages">Página actual</string>
+    <string name="progress_field_percent">Porcentaje actual (0 a 100)</string>
+    <string name="error_number_required">Escribe un número.</string>
+    <string name="error_number_invalid">Número no válido.</string>
+    <string name="error_over_pages">No puede pasar de %1$d páginas.</string>
+    <string name="error_over_percent">No puede pasar de %1$d%%.</string>
+    <string name="toast_progress_saved">Avance guardado</string>
+    <string name="toast_progress_corrected">Avance corregido</string>
+    <string name="toast_progress_same">El avance es el mismo</string>
+    <string name="finished_title">¡Lo lograste! 🎉</string>
+    <string name="finished_message">Terminaste «%1$s». ¡Felicitaciones por otro libro leído! No olvides calificarlo.</string>
+    <string name="finished_button">¡Genial!</string>
+
+    <!-- Detalle -->
+    <string name="detail_title">Detalle</string>
+    <string name="detail_status">Estado</string>
+    <string name="detail_progress">Avance</string>
+    <string name="detail_rating">Tu calificación</string>
+    <string name="detail_history">Historial de lectura</string>
+    <string name="detail_history_empty">Aún no has registrado avances.</string>
+    <string name="detail_started">Inicio: %1$s</string>
+    <string name="detail_finished">Terminado: %1$s</string>
+    <string name="log_delta_pages">+%1$d págs</string>
+    <string name="log_delta_percent">+%1$d%%</string>
+    <string name="log_after_pages">hasta la pág. %1$d</string>
+    <string name="log_after_percent">hasta el %1$d%%</string>
+    <string name="delete_title">Borrar libro</string>
+    <string name="delete_message">¿Seguro que quieres borrar «%1$s» y todo su historial? Esta acción no se puede deshacer.</string>
+
+    <!-- Formulario -->
+    <string name="form_title_new">Nuevo libro</string>
+    <string name="form_title_edit">Editar libro</string>
+    <string name="form_pick_gallery">Elegir portada de la galería</string>
+    <string name="form_search_online">Buscar en internet</string>
+    <string name="form_title">Título</string>
+    <string name="form_author">Autor</string>
+    <string name="form_genre">Género</string>
+    <string name="form_progress_type">¿Cómo medirás tu avance?</string>
+    <string name="type_pages">Páginas</string>
+    <string name="type_percent">Porcentaje</string>
+    <string name="form_total_pages">Total de páginas</string>
+    <string name="form_total_pages_optional">Total de páginas (opcional)</string>
+    <string name="form_current_pages">Página actual (opcional)</string>
+    <string name="form_current_percent">Porcentaje actual (opcional)</string>
+    <string name="form_start_date_none">Elegir fecha de inicio (opcional)</string>
+    <string name="form_start_date_value">Fecha de inicio: %1$s</string>
+    <string name="form_start_date_title">Fecha de inicio</string>
+    <string name="error_title_required">Escribe el título del libro.</string>
+    <string name="error_total_required">Escribe un total de páginas válido.</string>
+    <string name="error_image">No se pudo cargar la imagen.</string>
+    <string name="toast_book_saved">Libro guardado</string>
+
+    <!-- Búsqueda en internet -->
+    <string name="search_title">Buscar en internet</string>
+    <string name="search_hint">Título o autor</string>
+    <string name="search_idle">Escribe un título o un autor y toca la lupa. Los datos vienen de Open Library.</string>
+    <string name="search_too_short">Escribe al menos 2 letras.</string>
+    <string name="search_empty">No se encontraron libros. Prueba con otras palabras.</string>
+    <string name="suggestion_pages">%1$d páginas</string>
+
+    <!-- Estadísticas -->
+    <string name="stats_title">Estadísticas</string>
+    <string name="stats_month_summary">Resumen del mes</string>
+    <string name="stat_books">Libros terminados</string>
+    <string name="stat_pages">Páginas leídas</string>
+    <string name="stat_per_day">Págs. por día de lectura</string>
+    <string name="stat_streak">Racha (días)</string>
+    <string name="stats_year_title">Terminados en %1$d: %2$d</string>
+    <string name="stats_year_empty">Aún no has terminado libros este año.</string>
+
+    <!-- Perfil -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_user">Usuario: %1$s</string>
+    <string name="profile_totals">%1$d libros en tu biblioteca · %2$d terminados</string>
+    <string name="profile_theme">Tema</string>
+    <string name="profile_theme_hint">Automático sigue el modo claro u oscuro de tu dispositivo.</string>
+    <string name="theme_auto">Automático</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+</resources>

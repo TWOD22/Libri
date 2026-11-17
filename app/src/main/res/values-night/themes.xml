@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- El tema oscuro usa el mismo estilo: los colores cambian solos por values-night/colors.xml -->
+    <style name="Base.Theme.Libri" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/libri_primary</item>
+        <item name="colorOnPrimary">@color/libri_on_primary</item>
+        <item name="colorPrimaryContainer">@color/libri_primary</item>
+        <item name="colorOnPrimaryContainer">@color/libri_on_primary</item>
+        <item name="colorSecondary">@color/libri_gold</item>
+        <item name="colorOnSecondary">@color/libri_background</item>
+        <item name="colorSecondaryContainer">@color/libri_primary</item>
+        <item name="colorOnSecondaryContainer">@color/libri_on_primary</item>
+        <item name="colorTertiary">@color/libri_mint</item>
+        <item name="colorSurface">@color/libri_surface</item>
+        <item name="colorOnSurface">@color/libri_text_primary</item>
+        <item name="colorSurfaceVariant">@color/libri_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/libri_text_secondary</item>
+        <item name="colorSurfaceContainer">@color/libri_surface</item>
+        <item name="colorSurfaceContainerLow">@color/libri_surface</item>
+        <item name="colorSurfaceContainerHigh">@color/libri_surface</item>
+        <item name="colorSurfaceContainerHighest">@color/libri_surface_variant</item>
+        <item name="colorOutline">@color/libri_stroke</item>
+        <item name="colorOutlineVariant">@color/libri_stroke</item>
+        <item name="android:colorBackground">@color/libri_background</item>
+        <item name="colorOnBackground">@color/libri_text_primary</item>
+        <item name="android:windowBackground">@color/libri_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@bool/libri_light_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/libri_light_bars</item>
+    </style>
+</resources>

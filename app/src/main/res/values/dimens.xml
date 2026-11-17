@@ -1,0 +1,5 @@
+<resources>
+    <!-- Ancho máximo del contenido: en tablet el contenido no se estira de lado a lado -->
+    <dimen name="content_max_width">640dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+</resources>
